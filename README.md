@@ -11,7 +11,7 @@ Unless you have mods installed, you will see a GO! and a GAME! - hence referred 
 
 Since GG stays on screen for a second or so, we can smooth the data out with `slide` to make sure we don't catch any potential red herrings, e.g. bright flashes, colorful final smashes.
 
-Since Jitter has video export capabilities, I tried to keep it "in the box" and hacked together some Jitter routines to cut a video. However, this proved way too inefficient, as MaxMSP is not really made for non-linear editing of video files (on that note, another weakness of this program is that it only works in real-time). In the end, I outsourced the cutting to FFMPEG, which you do have to download, but it's very light and has a great feature set. After a few nested `sprintf` objects combining the data I derived, I have a .bat file that I can export via the `text` object. From this point, I can use Max's file pathing to find and cut an entire folder using one batch file.
+Since Jitter has video export capabilities, I tried to keep it "in the box" and hacked together some Jitter routines to cut a video. However, this proved way too inefficient, as MaxMSP is not really made for non-linear editing of video files (on that note, another weakness of this program is that it only works in real-time). In the end, I outsourced the cutting to FFMPEG, which you do have to download, but it's very light and has a great feature set. After a few nested `sprintf` objects combining the data I derived, I have a .bat file that I can export via the `text` object. From this point, I can use Max's file pathing (combined with its aforementioned iterative nature) to find and cut an entire folder using one batch file.
 
 An audio modeling practice turned image masking tool!
 
