@@ -1,5 +1,5 @@
 # VODcutter
-A MaxMSP patcher that uses image masking via Jitter to determine start and endpoints of a fighting game VOD. It will export a batch file that will cut your VODs. Standalone .exe available. You need ffmpeg essentials: https://www.gyan.dev/ffmpeg/builds/
+A MaxMSP patcher that uses image masking via Jitter to determine start and endpoints of a fighting game VOD. It will export a batch file that will cut your VODs. You need MaxMSP to run the program (https://cycling74.com/products/max - the Runtime requires no authorization). You also need to download ffmpeg essentials: https://www.gyan.dev/ffmpeg/builds/
 
 Early demonstration video:
 https://twitter.com/bootyjazz/status/1486813442640121862
